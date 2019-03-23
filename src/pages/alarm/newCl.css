@@ -1,0 +1,102 @@
+@keyframes newJb
+{
+    from {left: 1000px;}
+    to {left: 0;}
+}
+.newCl{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 2;
+	animation: newJb .5s;
+	padding: 15px;
+}
+.newCl_div{
+    height: 32px;
+}
+.newCl_div_btn{
+	float: right;
+	height: 32px;
+	line-height: 32px;
+	width: 80px;
+	text-align: center;
+	background: #0086c9;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.newCl_title{
+	height: 32px;
+    line-height: 32px;
+    background: #d33f3f;
+    border-radius: 2px 0 0 2px;
+    position: relative;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Microsoft YaHei;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.newCl_table{
+	border: 1px solid #ebebeb;  
+    padding: 15px 9% 20px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.newCl_table table tbody tr{
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+.newCl_table table tbody tr td:first-child{
+	width: 100px;
+}
+.newCl_details{
+	border: 1px solid #cccccc;
+    width: 620px;
+    padding-bottom: 25px;
+}
+.newCl_details div{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+.newCl_details div input{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+}
+.newCl_btn span{
+	display: inline-block;
+	width: 130px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    border: 1px solid #d4d4d4;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: Microsoft YaHei;
+}
+.newCl_btn span:hover{
+	border: 1px solid #0086c9;
+    color: #0086c9;
+}
+.newCl_btn span.active{
+	border: 1px solid #0086c9;
+    background: #0086c9;
+    color: #ffffff;
+}
+.wranInfo{
+	position:absolute;
+	top:200px;
+	left:165px;
+}

@@ -1,0 +1,95 @@
+.yyhj{
+	min-height: 800px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px;
+}
+.yyhj_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px 25px 0px 20px;
+}
+.PHP_left{
+	float: left;
+	width: 33%;
+}
+.PHP_left2{
+	/* float: left; */
+    width: 33%;
+    margin-top: 0px;
+}
+.PHP_right{
+    width: 16%;
+    /* margin-top: -46%;
+    margin-left: 49.5%; */
+}
+.PHP_right2{
+    width: 91%;
+    margin-top: 0px;
+}
+.PHP_right3{
+    width: 34%;
+}
+.PHP table thead tr th{
+	text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eeeeee;
+    color: #666666;
+    font-weight: normal;
+    line-height: 30px;
+  
+}
+
+
+.PHP_left table tbody tr td{
+	text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #666666;
+    line-height: 35px;
+    background-color: #cce6f7;
+}
+.PHP_left2 table tbody tr td{
+	text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 26px;
+    border: 1px solid #666666;
+    background-color: #cce6f7;
+}
+
+.PHP_right table tbody tr td{
+	text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #666666;
+    line-height: 35px;
+    background-color: #cce6f7;
+}
+.PHP_right2 table tbody tr td{
+	text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #666666;
+    line-height: 35px;
+    background-color: #cce6f7;
+}
+.PHP_right3 table tbody tr td{
+	text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #666666;
+    line-height: 35px;
+    background-color: #cce6f7;
+}
+.PHP_right table tbody tr:nth-child(even) {
+    float: right;
+	text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #666666;
+    background-color: #cce6f7;
+}

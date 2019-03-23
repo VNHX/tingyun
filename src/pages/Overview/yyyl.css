@@ -1,0 +1,188 @@
+.header{
+	height: 30px;
+}
+.header .headerLeft{
+	font-size: 16px;
+    color: #4d4d4d;
+    float: left;
+    height: 24px;
+    line-height: 30px;
+}
+.header .headerRight{
+	float: right;
+	width: 450px;
+	position: relative;
+}
+.header .headerRight .oneSection{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.header .headerRight .twoSection{
+	float: left;
+	height: 30px;
+	width: 70px;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #eeeeee;
+	margin-left: 5px;
+}
+.header .headerRight input.threeSection{
+	float: left;
+	height: 24px;
+	width: 160px;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+.header .headerRight .fourSection{
+	float: left;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+	margin-left: 20px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background-color: #0085c9;
+	padding: 0 10px 0 10px;
+}
+.timeCom{
+    position: absolute;
+    top: 45px;
+    right: 0;
+    min-height: 200px;
+    width: 580px;
+    z-index: 999;
+    padding: 0 13px;
+    background: #fff;
+    border: 1px solid silver;
+}
+.timeCom .slide{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.timeCom .slide span{
+    float: right;
+}
+.timeCom .slide .big{
+    width: 36px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    background: #00a1e8;
+    border-radius: 8px;
+    padding: 2px;
+}
+.timeCom .slide .left{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background: #fff;
+    border-radius: 6px;
+}
+.timeCom .slide .right{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background: #fff;
+    border-radius: 6px;
+}
+.timeCom .title{
+    border-bottom: 1px solid silver;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.timeCom .title .close{
+    height: 20px;
+    width: 20px;
+    float: right;
+    background: url('../img/panelCancel.png');
+    margin-top: 8px;
+    cursor: pointer;
+}
+.content .yyyl_table{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.content .yyyl_table thead{
+	width: 100%;
+	background-color: #f8f8f8; 
+}
+.content .yyyl_table thead tr th{
+	height: 30px;
+	border-bottom: 1px solid #dddddd;
+	text-align: center;
+}
+.content .yyyl_table tbody tr td div{
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	background-color: #eee;
+}
+.content .yyyl_table tbody tr td{
+	height: 44px;
+	text-align: center;
+}
+.content .yyyl_table tfoot tr td{
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+.content .browse{
+	width: 100%;
+}
+.content .browse .title{
+	font-weight: 400;
+	height: 25px;
+	line-height:25px;
+}
+.content .browse ul{
+	padding: 0;
+	margin: 0;
+	height: 41px;
+	list-style: none;
+	margin-top: 15px;
+}
+.content .browse ul li{
+	float: left;
+	height: 41px;
+	line-height: 41px;
+	width: 100px;
+	text-align: center;
+	border:0;
+	display: inline-block;
+}
+.content .browse ul li a{
+	color: #666666;
+    width: 100px;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    border: #d3d3d3 1px solid;
+}
+.content .browse ul li a.active{
+    border-bottom: #fff 1px solid;
+}
+.content .browse .alarm{
+	border: #d3d3d3 1px solid;
+    width: 100%;
+    padding: 10px 5px;
+}
+.content .browse .alarm .alarmContent{
+	height: 100px;
+    padding-top: 40px;
+	background: none repeat scroll 0 0 #fafafa;
+    border: 1px dashed #d4d4d4;
+    text-align: center;
+}

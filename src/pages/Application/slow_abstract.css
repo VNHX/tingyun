@@ -1,0 +1,13 @@
+.slow_abstract table{
+	width: 100%
+}
+.slow_abstract table thead tr th{
+	background: #eeeeee;
+	font-size: normal;
+	height: 35px;
+	line-height: 35px;
+}
+.slow_abstract table tbody tr th{
+	height: 25px;
+	line-height: 25px;
+}

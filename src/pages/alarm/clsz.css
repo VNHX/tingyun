@@ -1,0 +1,42 @@
+.clsz_title{
+	height: 40px;
+}
+.clsz_title .clsz_title_left{
+	float: left;
+	margin-left: 10%;
+	height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #222222;
+    font-family: Microsoft YaHei;
+}
+.clsz_title .clsz_title_right{
+	float: right;
+	margin-right: 10%;
+	cursor: pointer;
+	padding: 0 13px 0 13px;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #dd301b;
+}
+.clsz_table{
+	width: 80%;
+	margin-left: 10%;
+}
+.clsz_table thead tr th{
+	border: 1px solid #d3d3d3;
+	padding-left: 10px;
+	height: 45px;
+    background: #f7f7f7;
+    color: #222222;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+}
+.clsz_table tbody tr td{
+	border: 1px solid #d3d3d3;
+	padding-left: 10px;
+	height: 55px;
+}

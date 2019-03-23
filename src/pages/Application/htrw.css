@@ -1,0 +1,68 @@
+.htrw{
+	min-height: 800px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px;
+}
+.htrw_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px 25px 0px 20px;
+}
+.htrw_content{
+	border-top: #d4d4d4 1px solid;
+	padding-top: 10px;
+}
+.htrw_content_left{
+	float: left;
+	width: 23%;
+}
+.htrw_content_right{
+	float: right;
+	width: 75%;
+}
+.htrw_content_left_titlt{
+	height: 25px;
+	line-height: 25px;
+	color: #3598DB;
+}
+.htrw_content_right .searchBox{
+	height: 30px;
+	margin: 15px 0;
+}
+.htrw_content_right .searchBox .button{
+	width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #3598db;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.htrw_content_right .searchBox input{
+	height: 30px;
+	width: 330px;
+}
+.htrw_content_right table thead tr th{
+	height: 30px;
+	background-color: #333333;
+	color: #f3f3f3;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.htrw_content_right .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+}
+.htrw_content_right .header .add{
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}

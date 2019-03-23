@@ -1,0 +1,24 @@
+.st{
+	min-height: 800px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px; 
+}
+.st_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 12px 25px 0px 20px;
+}
+.st_body .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	width: 100%;
+}
+.st_body .header span{
+	font-size: 12px;
+}

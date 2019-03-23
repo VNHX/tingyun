@@ -1,0 +1,49 @@
+.dragDiv .all{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #d0d0d0;
+	position: relative;
+	height: 19px;
+	width: 460px;
+}
+.sz{
+	margin: 0 auto;
+    width: 96px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background: #00a0e9;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+	font-weight: 700;
+	text-align: center
+}
+.dragDiv .all .bgDiv{
+	width: 0px;
+	height: 19px;
+	background: #00a0e9;
+}
+.dragDiv .all .dragBlock{
+	display: inline-block;
+	height: 26px;
+	width: 15px;
+	background: url(../img/drag.jpg);
+	position: absolute;
+	cursor: move;
+	left: -5px;
+	top: -3px;
+}
+.dragDiv .axis span{
+	display: inline-block;
+	height: 16px;
+	width: 45px;
+	font-size: 12px;
+	color: #222;
+	font-family: "Microsoft YaHei",Arial,"lucida Grande",Verdana;
+	user-select: none;
+}
+.dragDiv .axis .vertical span{
+	width: 45px;
+	padding-left: 1.5px;
+}

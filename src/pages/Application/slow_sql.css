@@ -1,0 +1,13 @@
+.sw_sql table{
+	width: 100%
+}
+.sw_sql table thead tr th{
+	background: #eeeeee;
+	font-size: normal;
+	height: 35px;
+	line-height: 35px;
+}
+.sw_sql table tbody tr th{
+	height: 25px;
+	line-height: 25px;
+}

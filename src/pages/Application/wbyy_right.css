@@ -1,0 +1,81 @@
+@keyframes my_sw
+{
+	from {left: 1000px;}
+	to {left: 0;}
+}
+
+@-moz-keyframes my_sw /* Firefox */
+{
+	from {left: 1000px;}
+	to {left: 0;}
+}
+
+@-webkit-keyframes my_sw /* Safari 和 Chrome */
+{
+	from {left: 1000px;}
+	to {left: 0;}
+}
+
+@-o-keyframes my_sw /* Opera */
+{
+	from {left: 1000px;}
+	to {left: 0;}
+}
+.wbyy_content_right_block{
+	position: absolute;
+	z-index: 5;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	animation: my_sw .5s;
+	-moz-animation: my_sw .5s;	/* Firefox */
+	-webkit-animation: my_sw .5s;	/* Safari 和 Chrome */
+	-o-animation: my_sw .5s;	/* Opera */
+}
+.wbyy_content_right_block_tab{
+	height: 40px;
+}
+.wbyy_content_right_block_tab span{
+	min-width: 80px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background: #fcfcfc;
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+    float: left;
+    margin-left: 6px;
+}
+.wbyy_content_right_block_chart{
+	padding: 10px 20px 20px;
+    width: auto;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    min-height: 650px;
+}
+.wbyy_content_right_block_chart .back{
+	color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    background: #3598db;
+    margin-bottom: 20px;
+}
+.wbyy_content_right_block_chart table thead tr th{
+	text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eeeeee;
+    color: #666666;
+    font-weight: normal;
+    line-height: 30px;
+}

@@ -1,0 +1,60 @@
+.bodyBox .content,.secondTree{
+	min-height: 1022px
+}
+.bodyBox{
+	padding: 30px 0;
+}
+.secondTree{
+	width: 120px;
+	box-shadow: 0 0 6px 1px #d0d0d0;
+	border: 1px solid #d0d0d0;
+	border-radius: 0 3px 3px 0;
+	background: #fff;
+	float: left;
+	overflow: hidden;
+}
+.bodyBox ul.leftTree{
+	width: 120px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background-color: #ffffff;
+	border-radius: 0 3px 3px 0;
+}
+.bodyBox ul.leftTree li{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #e5e5e5;
+} 
+.bodyBox ul.leftTree li:hover{
+	background-color: #0085c9;
+	color:#ffffff;
+}
+.bodyBox ul.leftTree li:hover a{
+	color:#ffffff;
+}
+.bodyBox ul.leftTree li a{
+	color: #a0a0a0;
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+.bodyBox ul.leftTree li.active a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-color: #0085c9
+}
+.bodyBox .content{
+	min-height: 800px;
+	background: #fff;
+	position: relative;
+	margin: 0 30px 0 150px;
+	padding: 12px 25px 0 20px;
+	border-radius: 5px;
+} 

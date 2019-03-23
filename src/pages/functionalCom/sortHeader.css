@@ -1,0 +1,38 @@
+.sortHeader{
+	height: 40px;
+	background-color: #3598db;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+.sortHeader .sortHeader_title{
+	float: left;
+	width: 75px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+.sortHeader ul{
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-top: 8px;
+}
+.sortHeader ul li{
+	float: left;
+	font-size: 12px;
+	min-width: 30px;
+    padding: 0 5px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.sortHeader ul li.active{
+	background: #00498d;
+}
+.sortHeader ul li:hover{	
+    background: #00498d;
+}

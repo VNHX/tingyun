@@ -1,0 +1,103 @@
+.affairs_qbhz{
+	min-height: 800px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px; 
+}
+.affairs_qbhz_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 12px 25px 0px 20px;
+}
+.affairs_qbhz_body_first{
+	padding-top: 10px;
+	width: 100%;
+	font-size: 16px;
+	height:400px;
+}
+.affairs_qbhz_body_first .left{
+	float: left;
+	width: 64%;
+	height: 400px;
+}
+.affairs_qbhz_body_first .right{
+	float: right;
+	width: 34%;
+	height: 400px;
+}
+.affairs_qbhz_body_first .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+}
+.affairs_qbhz_body_first span,.affairs_qbhz_body_third span{
+	font-size: 12px;
+	font-family: "Microsoft YaHei",Arial,"lucida Grande",Verdana;
+}
+.affairs_qbhz_body_third .left{
+	float: left;
+	width: 64%;
+	margin-right: 2%;
+}
+.affairs_qbhz_body_third .right{
+	float: left;
+	width: 33%;
+	padding-top: 20px;
+}
+.affairs_qbhz_body_third .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	width: 100%;
+}
+.affairs_qbhz_body_third .left .cpu_box{
+	padding-top: 20px
+}
+.affairs_qbhz_body_third .left .cpu_box .cpu1{
+	float: left;
+	width: 49%;
+}
+.affairs_qbhz_body_third .left .cpu_box .cpu2{
+	float: right;
+	width: 49%;
+}
+.affairs_qbhz_body_third table tbody tr td{
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+}
+.affairs_qbhz_body_third .left table thead tr th{
+	height: 30px;
+	background-color: #f2f2f2;
+	font-weight: normal;
+	padding-left: 5px
+}
+.affairs_qbhz_body_third .right .text{
+	margin-top: 10px;
+	height: 230px;
+	line-height: 230px;
+	text-align: center;
+	border: 1px dashed #d4d4d4;
+}
+.affairs_qbhz .header .add{
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.affairs_qbhz_body_third .iconSpan span{
+	display: inline-block;
+	height: 25px;
+	line-height: 28px;
+	width: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+.affairs_qbhz_body_third .iconSpan span.active{
+	background-color: #fff;
+}

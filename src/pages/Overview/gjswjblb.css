@@ -1,0 +1,56 @@
+.gjswjblb{
+	width: auto;
+    min-height: 800px;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px;
+}
+.gjswjblb_header{
+	height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 8px 1px silver;
+    margin-bottom: 30px;
+}
+.gjswjblb_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 12px 25px 0 20px;
+}
+.gjswjblb_select_div{
+	height: 30px;
+	line-height: 40px;
+}
+.gjswjblb_table_div{
+	width: 98%;
+	padding-top: 20px
+}
+.gjswjblb_table_div table{
+	margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+	width: 100%;
+}
+.gjswjblb_table_div table thead{
+	width: 100%;
+	background-color: #eeeeee;
+}
+.gjswjblb_table_div table thead tr th{
+	height: 30px;
+	line-height: 30px;
+	color: #666666;
+	font-weight: normal;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.gjswjblb_table_div table tbody tr td{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+    padding-right: 10px;
+}

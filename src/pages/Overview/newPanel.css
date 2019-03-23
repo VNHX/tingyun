@@ -1,0 +1,93 @@
+.newPanel{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	height: 100%;
+	width: 100%;
+	background-color: #b3b3b3;
+	opacity:.6;
+}
+.newBox{
+	display: none;
+	top: 50%;
+    left: 50%;
+    position: fixed;
+    margin-top: -75px;
+    margin-left: -250px;
+	width: 500px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    float: left;
+    color: #333;
+    font-size: 12px;
+    z-index: 1001;
+    background: #fff;
+}
+.newBox .header{
+	border-bottom: 1px solid #d3d3d3;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.newBox .header .cancel{
+	width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+    background-image: url(../../pages/img/panelCancel.png);
+}
+.newBox .newName{
+	float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.newBox .newName span{
+	font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    float: left;
+}
+.newBox .newName input{
+	border: 1px solid #d3d3d3;
+    padding: 5px;
+    line-height: 18px;
+    height: 18px;
+    color: #333;
+    float: left;
+    width: 435px;
+}
+.newBox .handle{
+	float: left;
+	width: 100%;
+    margin-top: 20px;
+}
+.newBox .handle #sure{
+	width: 100px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #3598db;
+    float: right;
+    border: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.newBox .handle #cancel{
+	width: 100px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #e1e1e1;
+    font-size: 12px;
+    color: #666;
+    float: right;
+    border: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}

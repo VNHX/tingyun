@@ -1,0 +1,80 @@
+.nosql{
+	min-height: 800px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px;
+}
+.nosql_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px 25px 0px 20px;
+}
+.nosql_content{
+	border-top: #d4d4d4 1px solid;
+	padding-top: 10px;
+}
+.nosql_content .tab_ul{
+	margin-bottom: 20px;
+}
+.nosql_content .tab_ul span{
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 250px;
+	color: #ffffff;
+	background-color: #3598db;
+	cursor: pointer;
+}
+.nosql_content_left{
+	float: left;
+	width: 23%;
+}
+.nosql_content_left ul li{
+	height: 22px;
+	cursor: pointer;
+}
+.nosql_content_left ul li:hover{
+	border:1px solid #4791c8;
+}
+.nosql_content_right{
+	float: right;
+	width: 75%;
+	position: relative;
+}
+.nosql_content_left_titlt{
+	height: 25px;
+	line-height: 25px;
+	color: #3598DB;
+}
+.nosql_content_left_input{
+	margin: 10px 0;
+}
+.nosql_content_left_input input{
+	height: 26px;
+	width: 165px;
+}
+.nosql_content_left_input span{
+	float: right;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	width: 50px;
+	background: #3598db;
+	color: #ffffff;
+	cursor: pointer;
+}
+.nosql_content_right .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+}
+.nosql_content_right .header .add{
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.mq{
+	min-height: 800px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px;
+}
+.mq_tab{
+	height: 36px;
+}
+.mq_tab span{
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	width: 126px;
+	text-align: center;
+	margin-right: 10px;
+	background-color: #e0e0df;
+	border-top-left-radius:5px; 
+	border-top-right-radius:5px; 
+	cursor: pointer;
+}
+.mq_tab span.active{
+	background-color: #fff;
+}
+.mq_body{
+	min-height: 720px;
+	background-color: white;
+	border-radius: 5px;
+	border-top-left-radius:0; 
+	padding: 20px 25px 0px 20px;
+}
+.mq_content{
+	border-top: #d4d4d4 1px solid;
+	padding-top: 10px;
+}
+.mq_content .tab_ul{
+	margin-bottom: 20px;
+}
+.mq_content .tab_ul span{
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	color: #ffffff;
+	background-color: #3598db;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.mq_content_left{
+	float: left;
+	width: 23%;
+}
+.mq_content_right{
+	float: right;
+	width: 75%;
+}
+.mq_content_left_titlt{
+	height: 25px;
+	line-height: 25px;
+	color: #3598DB;
+}
+.mq_content_right .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+}
+.mq_content_right .header .add{
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}

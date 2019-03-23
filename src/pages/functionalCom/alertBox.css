@@ -1,0 +1,18 @@
+.alertBox{
+	position: fixed;
+	z-index: 999;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.alertText{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #eee;
+	padding: 0 20px;
+	color: #3598db
+}

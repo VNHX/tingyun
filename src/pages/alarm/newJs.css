@@ -1,0 +1,67 @@
+@keyframes newJs
+{
+    from {left: 1000px;}
+    to {left: 0;}
+}
+.newJs{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 2;
+	animation: newJs .5s;
+	padding: 15px;
+}
+.newJs_div{
+    height: 32px;
+}
+.newJs_title{
+	height: 32px;
+    line-height: 32px;
+    background: #d33f3f;
+    border-radius: 2px 0 0 2px;
+    position: relative;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Microsoft YaHei;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.newJs_table{
+    border: 1px solid #ebebeb;  
+    padding: 35px 9% 50px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.newJs_details{ 
+    width: 50%;    
+    background: #ffffff;
+}
+.newJs_details tbody tr{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+.newJs_details tbody tr td:first-child{
+    width: 20%;
+    text-align: right;
+    padding-right: 5px;
+}
+.newJs_details tbody tr td input{
+    width: 400px;
+}
+.newJs_add{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    width: 80px;
+    text-align: center;
+    padding:0 10px;
+    background:#0085c9;
+    color:#ffffff;
+    margin-left: 40%;
+    margin-top: 30px;
+}

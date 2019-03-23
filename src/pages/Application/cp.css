@@ -1,0 +1,82 @@
+.bb{
+	min-height: 1022px;
+	width: auto;
+    background: #eee;
+    position: relative;
+    margin: 0 30px 0 150px;
+}
+.cp_body{
+	min-height: 1022px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px 25px 0px 20px;
+}
+.cp_content{
+	border-top: #d4d4d4 1px solid;
+	padding-top: 10px;
+}
+.cp_content_left{
+	float: left;
+	width: 23%;
+}
+.cp_content_right{
+	float: right;
+    width: 75%;
+    cursor: pointer;
+}
+.cp_content_left_titlt{
+	height: 25px;
+	line-height: 25px;
+	color: #3598DB;
+}
+.cp{
+	width: 33%;
+	cursor: pointer;
+	height: 23%;
+}
+/* .cwl_content_left_titlt{
+	height: 25px;
+	line-height: 25px;
+	color: #3598DB;
+} */
+.cp table thead tr th{
+	background-color: #333333;
+	color: #f3f3f3;
+    font-weight: normal;
+	line-height: 30px;
+	text-align: center;
+}
+.cp table tbody tr td{
+    font-weight: normal;
+    line-height: 36px;
+    height: 36px;
+    padding-left: 5px;
+	border-bottom: #ddd 1px solid;
+	text-align: center;
+}
+.cp table tbody tr{
+	cursor:pointer;
+}
+.cp table tbody tr:nth-child(even){
+	background-color: #f6f6f6;
+}
+.cp_top{
+    width: 77%;
+    position: relative;
+    top: -18rem;
+    overflow: hidden;
+    height: 34rem;
+    left: 22rem;
+}
+.cp_top .header{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+}
+.cp_top .header .add{
+	float: right;
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
